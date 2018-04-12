@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">  
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+<meta name="HandheldFriendly" content="true">  
+<title>无标题文档</title>
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+@media screen and (max-width: 340px) {  
+	.loginbox,.w1200,.logininput,.loginbtn{ width:100%;};
+	.loginbox{position:absolute;}
+}
+@media screen and (min-width: 341px) and (max-width: 530px) {  
+	.w1200{ width:100%;}
+	.loginbox{position:absolute;left:50%;top:50%;margin-left:-170px;margin-top:75px;}
+}	  	
+	
+</style>
+<!--此两个js是密码输入框代码-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/JPlaceholder.js"></script>
+</head>
+
+<body>
+<div class="topbox">
+   <div class="fl" style="margin-top:11px;"><img src="images/dl_logo.gif" /></div>
+</div>
+
+
+<div class="bannerbg" id="primary">
+   <div class="w1200 col-md-10 col-lg-10 col-sm-11 col-xs-10">
+      <div class="loginbox">
+	     <div class="loginqiehuan"><img src="images/erwei.png" /></div>
+         <h2>用户登录</h2>
+		 <label class="login_t">帐号</label>
+	     <input name="Input" type="text" class="logininput" value="" placeholder="手机号/邮箱/账号" id="number"/>
+	     <label class="login_t">密码</label>
+	     <input name="" type="password"  class="logininput" value="" placeholder="请输入密码" id="password"/>
+		 <input type="button" class="loginbtn" value="登 录"/>
+      </div>
+   </div>
+</div>
+</body>
+</html>
